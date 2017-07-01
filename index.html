@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chamuth Chamandana's Portfolio</title>
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+	<link rel="icon" href="resources/cclogo.ico">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no" />
+		
+</head>
+
+<body>
+
+
+
+	<nav class="navbar">
+		<div class="bottomnav-content">
+			<h1 class="white-text bottom-padder">
+				CHAMUTH CHAMANDANA
+			</h1>
+			<h2 class="white-text">
+				Full Stack Engineer, UI/UX Designer
+			</h2>
+		</div>
+
+		<div class="social-networks">
+			<div class="centered-container">
+				<a href="http://www.facebook.com/c.chamandana"><span class="facebook-color fa fa-facebook fa-2x social-icon"></span></a>
+				<a href="http://www.twitter.com/chamandana"><span class="twitter-color fa fa-twitter fa-2x social-icon"></span></a>
+				<a href="https://plus.google.com/111363867544797316325"><span class="google-plus-color fa fa-google-plus fa-2x social-icon"></span></a>
+				<a href="https://lk.linkedin.com/in/chamuth-chamandana-27249bb7"><span class="linkedin-color fa fa-linkedin fa-2x social-icon"></span></a>
+			</div>
+		</div>
+
+		<div class="social-network-info facebook-color"></div>
+		<div class="social-network-info twitter-color"></div>
+		<div class="social-network-info google-plus-color"></div>
+		<div class="social-network-info linkedin-color"></div>
+		
+	</nav>
+
+	<div class="facebook contenter">
+		<h2 class="bottom-padder">Contact me on Facebook,</h2>
+		<div class="capsule">http://www.facebook.com/c.chamandana</div>
+		<div class="capsule">http://www.facebook.com/Ninponix</div>
+	</div>
+
+	<div class="twitter contenter">
+		<h2 class="bottom-padder">Contact me on Twitter,</h2>
+		<div class="capsule">http://www.twitter.com/chamandana</div>
+	</div>
+
+	<div class="google-plus contenter">
+		<h2 class="bottom-padder">Contact me on Google Plus,</h2>
+		<div class="capsule">https://plus.google.com/111363867544797316325</div>
+	</div>
+
+	<div class="linkedin contenter">
+		<h2 class="bottom-padder">Connect with me on LinkedIn,</h2>
+		<div class="capsule">https://lk.linkedin.com/in/chamuth-chamandana-27249bb7</div>
+	</div>
+
+
+	<div class="container" style="padding-bottom:50px">
+		<div class="search">
+			<input type="text" oninput="search();" placeholder="Search projects" id="projectsearch" name="searchterm">
+			<i class="fa fa-search fa-2x"></i>
+		</div>	
+	</div>
+
+	<div class="container-fluid">
+
+		<div style="text-align:center"><strong  class="primary-text">MY OPENSOURCE PROJECTS</strong></div>
+		<br>
+		<br>
+		<div class="centered-container">
+			<span id="searchresults" style="display:none" class="grey-text">Found 0 projects for </span>
+		</div>
+		<div id="opensource-projects" class="list" style="margin-bottom:50px;">
+			
+		</div>
+	</div>
+
+
+	<script id="entry-template" type="text/x-handlebars-template">
+		<a onclick="alert('{{name}}');return false">
+		  	<div class="project" style="border-color:{{color}}">
+		  		<div class="project-tech" style="background-color:{{color}}">
+		  			{{tech}}
+		  		</div>
+				<table class="project-details">
+					<tr>
+						<td style="padding-right:20px">
+							<img src="{{image}}" height="90px">
+						</td>
+
+						<td>
+							<span class="project-title" style="color:{{color}}">{{name}}</span>
+							<span class="project-description">{{description}}</span>
+						</td>
+					</tr>
+				</table>
+
+				<div class="github-container">
+					<a class="github-button" style="background-color:{{color}}" href="https://github.com/{{url}}/"><i class="fa fa-star"></i> Star</a>
+					<a class="github-button" style="background-color:{{color}}" href="https://github.com/{{url}}/fork"><i class="fa fa-code-fork"></i> Fork</a>
+				</div>
+			</div>
+		</a>
+	</script>
+
+
+	<!-- SCRIPT REFERENCES -->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery-easing/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="bower_components/handlebars/handlebars.min.js"></script>
+
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" src="scripts/getResources.js"></script>
+	<script type="text/javascript" src="scripts/search.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+[
+	{
+		"name" : "Project AISA",
+		"url" : "Chamuth/AISA",
+		"description" : "Artificial Intelligence (AI) is an advanced technology in the field of computer programming. It is affected to the human's lifestyle in both positive and negative ways. Negatively AI is used in drones which are a major threat to the privacy of humans, missiles which are coded in order to hit a target is also a major threat to the security of a certain country. But there are more effective and productive ways we can use Artificial Intelligence in our lives such as this project itself. AISA is a usage of Artificial Intelligence, Smart Voice and Speech Recognition Engine that can be used by a students in many aspects. But the \"Student\" that we talk about here is not just an average student, A Handicap Student is a student who is disabled by any means (except the student cannot talk)",
+		"image" : "resources/aisa.png",
+		"tech" : "C#",
+		"color" : "rgb(0,255,150)"
+	},
+	{
+		"name" : "DualServer",
+		"url" : "Ninponix/PHPDualServer",
+		"description" : "PHPDualServer is a Framework for the Dual Server Web Design Pattern. Dual Server Architecture is a Web Design Pattern or Architecture made for the Hypertext Preprocessor PHP. The speciality of the Dual Server Pattern is that, it is focusing more on the ease of updating the content of the website, so that it helps the Customer who is obtaining your web designing or web development service.",
+		"image" : "resources/dualserver.png",
+		"tech" : "PHP",
+		"color" : "#4F5D95"
+	},
+	{
+		"name" : "CCVShell",
+		"url" : "Chamuth/php-ccvshell",
+		"description" : "CCVShell it's a virtual SSH developed for Linux and Windows Servers. CCVShell comes with two editions client version and the server version. Server version is stored in the Webhost (Web server), in the public_html (or public root) directory. The Client version is stored in your computer, it is a executable program installed using a regular windows installer and can be used via the Command Prompt. See the tutorial for help.",
+		"image" : "resources/ssh-logo.png",
+		"tech" : "PHP",
+		"color" : "#4F5D95"
+	},
+	{
+		"name" : "py-ccvshell-client",
+		"url" : "Chamuth/py-ccvshell-client",
+		"description" : "A Client for the CCVShell server edition which will let you use SSH in a host that don't provide SSH for you.",
+		"image" : "resources/ssh-logo.png",
+		"tech" : "Python",
+		"color" : "#3572A5"
+	},
+	{
+		"name" : "CSharp-CCVShell",
+		"url" : "Chamuth/CSharp-CCVShell",
+		"description" : "A Client for the CCVShell server edition which will let you use SSH in a host that don't provide SSH for you.",
+		"image" : "resources/ssh-logo.png",
+		"tech" : "C#",
+		"color" : "rgb(0,255,150)"
+	},
+	{
+		"name" : "Unzipper",
+		"url" : "Chamuth/unzipper",
+		"description" : "The Unzipper extracts .zip and .rar archives or .gz files on webservers. It detects .zip/.rar/.gz archives and let you choose which one to extract (if there are multiple archives available). As of version 0.1.0 it also supports creating archives.",
+		"image" : "resources/rar.jpg",
+		"tech" : "PHP",
+		"color" : "#4F5D95"
+	}
+	,
+	{
+		"name" : "cPanels",
+		"url" : "Chamuth/cPanels",
+		"description" : "cPanels is a CSS + JS (Front-end) framework for creating panels / windows like in Facebook Messages.",
+		"image" : "resources/cpanels.js.jpg",
+		"tech" : "JavaScript",
+		"color" : "#f1e05a"
+	},
+	{
+		"name" : "ccscrolljs",
+		"url" : "Chamuth/ccscrolljs",
+		"description" : "CC Scroll is a parallax scrolling helper framework for JavaScript. It helps you with horizontally automatic scrolling from left, right or to the center",
+		"image" : "resources/ccscroll.png",
+		"tech" : "JavaScript",
+		"color" : "#f1e05a"
+	},
+	{
+		"name" : "cc-ini",
+		"url" : "Chamuth/cc-ini",
+		"description" : "cc-ini is an ini configuration reading, and writing wrapper for C#",
+		"image" : "resources/ini.png",
+		"tech" : "C#",
+		"color" : "rgb(0,255,150)"
+	},
+	{
+		"name" : "cc-navbar",
+		"url" : "Chamuth/cc-navbar",
+		"description" : "cc-navbar is a Navigation Bar bootstrapping option for modern websites.",
+		"image" : "resources/nav.gif",
+		"tech" : "HTML",
+		"color" : "#e34c26"
+	},
+	{
+		"name" : "CartPrinty-CSharp",
+		"url" : "Chamuth/CartPrinty-CSharp",
+		"description" : "CartPrinty is a FlowDocument generator for Bill / Cart printing in shops, super markets and etc.",
+		"image" : "resources/cart.png",
+		"tech" : "HTML",
+		"color" : "rgb(0,255,150)"
+	}
+
+]
