@@ -1,11 +1,10 @@
-/* ELEMENT SELECTORS */
-
 $ninponixblue : rgb(0,150,255);
 $greenblue : rgb(0,255,150);
 
 body
 {
 	margin:0 !important;
+	overflow-x:hidden;
 }
 
 *
@@ -26,7 +25,61 @@ h2
 	font-size:25px;	
 }
 
-/* CLASSES AND IDENTIFIER SELECTORS */
+hr
+{
+	border-color:	$greenblue;
+	border:			1px dotted $greenblue;
+	margin-top:		60px;
+	opacity:		0.5;
+	outline-color:	$greenblue;
+}
+
+.footer
+{
+	background-color:$greenblue;
+	display:block;
+}
+
+a
+{
+	text-decoration:none !important;
+}
+
+.developer-name
+{
+	color:black;
+	transition: color 500ms
+}
+
+.developer-name:hover
+{
+	color:white;
+	transition:color 500ms;
+}
+
+.quote-title
+{
+	background-color:$greenblue;
+	color:white;
+	padding:5px 10px;
+	border-radius:50px;
+	padding: 10px 20px;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+}
+
+.quote-title::selection
+{
+	background-color:white;
+	color:$greenblue;
+}
+
+.quote-owner
+{
+	display:block;
+	margin-top:35px;
+	font-size:15px;
+}
 
 .contenter
 {
@@ -148,6 +201,11 @@ h2
 	background-color:#4099FF;
 }
 
+.special-text
+{
+	font-family:Pacifico;
+}
+
 .linkedin-color
 {
 	background-color:#0077B5;
@@ -169,7 +227,9 @@ h2
 
 .container
 {
-	padding:75px 250px;
+	padding:50px 250px;
+
+	transition: all 500ms;
 }
 
 .container-fluid
@@ -234,8 +294,9 @@ h2
 .list
 {
 	width:100%;
-	float:left;
 	text-align:center;
+
+	transition: all 500ms;
 }
 
 .grey-text
@@ -330,6 +391,13 @@ h2
 	border-radius:10px;
 }
 
+.about-me 
+{
+	background-color:white;
+	color:$greenblue;
+	font-size:25px;
+}
+
 /* FOR LAPTOPS */
 @media screen and (max-width:1200px)
 {
@@ -353,7 +421,8 @@ h2
 
 	.container
 	{
-		padding:50px 150px;
+		padding:50px 100px;
+			transition: all 500ms;
 	}
 
 	.container-fluid
@@ -397,7 +466,6 @@ h2
 	}
 }
 
-/* MOBILE SCREEN */
 @media screen and (max-width:700px)
 {
 	.project
@@ -426,6 +494,7 @@ h2
 	.container
 	{
 		padding:25px 25px;
+			transition: all 500ms;
 	}
 
 	.container-fluid

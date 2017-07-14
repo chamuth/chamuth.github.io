@@ -1,0 +1,38 @@
+.col-6
+{
+	width:50%;
+}
+
+.col-12
+{
+	width:100%;
+}
+
+.col-4
+{
+	width:30%;
+	text-align:left;
+}
+
+.col-3
+{
+	width:25%
+}
+
+.row>*
+{
+	display:inline-block;
+}
+
+.row
+{
+	text-align:center;
+}
+
+@media screen and (max-width:700px)
+{
+	.col-4
+	{
+		width:100%
+	}
+}

@@ -4,23 +4,29 @@
 <head>
 	<title>Chamuth Chamandana's Portfolio</title>
 
+	<!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/gridsystem.css">
+
+	<!-- ICONS -->
 	<link rel="icon" href="resources/cclogo.ico">
 
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+	<!-- FOR MOBILE FRIENDLY PREVIEW -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no" />
-		
+	
 </head>
 
 <body>
 
-
-
 	<nav class="navbar">
 		<div class="bottomnav-content">
-			<h1 class="white-text bottom-padder">
-				CHAMUTH CHAMANDANA
+			<h1 class="white-text bottom-padder special-text">
+				Chamuth Chamandana
 			</h1>
 			<h2 class="white-text">
 				Full Stack Engineer, UI/UX Designer
@@ -43,6 +49,7 @@
 		
 	</nav>
 
+
 	<div class="facebook contenter">
 		<h2 class="bottom-padder">Contact me on Facebook,</h2>
 		<div class="capsule">http://www.facebook.com/c.chamandana</div>
@@ -64,16 +71,24 @@
 		<div class="capsule">https://lk.linkedin.com/in/chamuth-chamandana-27249bb7</div>
 	</div>
 
+	<div class="about-me">
+		<div class="container" style="text-align:center;padding-bottom:10px">
+			<strong class="quote-title special-text">&quot;If you can't achieve a specific goal in a specific environment, try developing your own environment.&quot;</strong>
+			
+			<small class="quote-owner">- CHAMUTH CHAMANDANA</small>
+			<hr>
+		</div>
+	</div>
 
-	<div class="container" style="padding-bottom:50px">
+	<div class="container" style="margin-top:25px;">
 		<div class="search">
 			<input type="text" oninput="search();" placeholder="Search projects" id="projectsearch" name="searchterm">
 			<i class="fa fa-search fa-2x"></i>
 		</div>	
 	</div>
 
-	<div class="container-fluid">
-
+	
+	<div class="container">
 		<div style="text-align:center"><strong  class="primary-text">MY OPENSOURCE PROJECTS</strong></div>
 		<br>
 		<br>
@@ -86,6 +101,8 @@
 	</div>
 
 
+
+	<!-- OPEN SOURCE PROJECT TEMPLATE USING HANDLEBARS -->
 	<script id="entry-template" type="text/x-handlebars-template">
 		<a onclick="visit('{{url}}');return false">
 		  	<div class="project" style="border-color:{{color}}">
@@ -113,6 +130,25 @@
 		</a>
 	</script>
 
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					
+					<small style="display:block;margin-bottom:5px;">DEVELOPED AND DESIGNED BY </small>
+					<a href="http://www.facebook.com/c.chamandana"><big class="special-text developer-name">Chamuth Chamandana</big></a>
+
+				</div>
+				<div class="col-4 align-right">
+					<big><strong style="font-size:20px" class="special-text">+9475 6281355</strong></big>
+				</div>
+				<div class="col-4 align-right">
+					<big><strong style="font-size:20px"  class="special-text">c.chamandana@gmail.com</strong></big>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<!-- SCRIPT REFERENCES -->
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -123,6 +159,7 @@
 	<script type="text/javascript" src="scripts/getResources.js"></script>
 	<script type="text/javascript" src="scripts/search.js"></script>
 	<script type="text/javascript" src="scripts/visit.js"></script>
+
 
 </body>
 
