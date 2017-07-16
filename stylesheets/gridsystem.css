@@ -11,6 +11,11 @@
 .col-3 {
   width: 25%; }
 
+.align-center
+{
+	text-align:center;
+}
+
 .row > * {
   display: inline-block; }
 

@@ -16,6 +16,22 @@
 		"color" : "#4F5D95"
 	},
 	{
+		"name" : "Pages.lk",
+		"url" : "Chamuth/Pages",
+		"description" : "Pages.lk is a digital documents hosting service that lets scholars and educationists obtain, read and publish digital documents such as books, articles, theses, magazines and etc.",
+		"image" : "resources/pages.lk.png",
+		"tech" : "Cross",
+		"color" : "rgb(0,255,150)"
+	},
+	{
+		"name" : "Scholar",
+		"url" : "Chamuth/Scholar",
+		"description" : "Scholar is an advanced e-Learning management system for the private education field of Sri Lanka. Scholar lets users create classes, join to classes, write and upload MCQ, Essay-type papers, read and write notes, upload assignments and etc.",
+		"image": "resources/scholar.png",
+		"tech" : "Cross",
+		"color" : "rgb(0,150,255)"
+	},
+	{
 		"name" : "CCVShell",
 		"url" : "Chamuth/php-ccvshell",
 		"description" : "CCVShell it's a virtual SSH developed for Linux and Windows Servers. CCVShell comes with two editions client version and the server version. Server version is stored in the Webhost (Web server), in the public_html (or public root) directory. The Client version is stored in your computer, it is a executable program installed using a regular windows installer and can be used via the Command Prompt. See the tutorial for help.",
@@ -23,6 +39,7 @@
 		"tech" : "PHP",
 		"color" : "#4F5D95"
 	},
+	
 	{
 		"name" : "py-ccvshell-client",
 		"url" : "Chamuth/py-ccvshell-client",
@@ -69,6 +86,14 @@
 		"url" : "Chamuth/cc-ini",
 		"description" : "cc-ini is an ini configuration reading, and writing wrapper for C#",
 		"image" : "resources/ini.png",
+		"tech" : "C#",
+		"color" : "rgb(0,255,150)"
+	},
+	{
+		"name" : "Ninponix Office",
+		"url" : "Ninponix/Ninponix-Office-2017",
+		"description" : "Ninponix Office is a free and open-source office package for the open-source community of the world. The specialty of Ninponix Office is the open-code feature and NVL (The Ninponix Visual Language)",
+		"image" : "resources/noffice.png",
 		"tech" : "C#",
 		"color" : "rgb(0,255,150)"
 	},
