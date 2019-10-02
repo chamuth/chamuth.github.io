@@ -1,5 +1,7 @@
 var appPageIds = ["intro", "projects", "contact"];
+var tabButtonIds = ["intro-tab-button", "projects-tab-button", "contact-tab-button"]
 var appPages = [];
+var tabButtons = [];
 var scrollIndex = 0;
 
 function getScrollPercent() {
@@ -23,6 +25,16 @@ function removeBothClasses(page)
     page.classList.remove("up");
 }
 
+function renderTabButtonActiveness()
+{
+    tabButtons.forEach((tabButton) => 
+    {
+        tabButton.classList.remove("active");
+    });
+
+    tabButtons[scrollIndex].classList.add("active");
+}
+
 function up()
 {
     if (scrollIndex > 0)
@@ -36,6 +48,8 @@ function up()
 
         removeBothClasses(appPages[scrollIndex]);   
     }
+
+    renderTabButtonActiveness();
 }
 
 function down()
@@ -52,6 +66,8 @@ function down()
 
         removeBothClasses(appPages[scrollIndex]);   
     }
+
+    renderTabButtonActiveness();
 }
 
 (function () {
@@ -59,6 +75,12 @@ function down()
     // initialize the app page references
     appPageIds.forEach((id) => {
         appPages.push(document.getElementById(id));
+    });
+
+    // initialize the tab buttons
+    tabButtonIds.forEach((id) => 
+    {
+        tabButtons.push(document.getElementById(id));
     });
 
     // Add scroll listener
@@ -86,4 +108,6 @@ function down()
             up();
         }  
     });
+
+    $('.tabs').tabs();
 })();

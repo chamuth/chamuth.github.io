@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chamuth Chamandana</title>
+    <title>Chamuth Chamandana - Portfolio</title>
+
+    <link rel="icon" href="illustrator/chamuth.png">
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -12,6 +14,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto+Condensed:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -28,7 +32,7 @@
                 <span class="tab-title">PROJECTS</span>
             </div>
         </div>
-        <div class="tab-button z-depth-1" id="projects-tab-button">
+        <div class="tab-button z-depth-1" id="contact-tab-button">
             <div class="button-content">
                 <i class="material-icons">call</i>
                 <span class="tab-title">CONTACT ME</span>
@@ -36,10 +40,38 @@
         </div>
     </div>
 
+    <div class="social-media-icons">
+        <a href="https://www.facebook.com/chamandana/" target="_blank">
+            <div class="social-media-button">
+                <i class="fa fa-facebook fa-fw"></i>
+            </div>
+        </a>
+        <a href="https://twitter.com/chamandana" target="_blank">
+            <div class="social-media-button">
+                <i class="fa fa-twitter fa-fw"></i>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/channel/UCiD_4ZDxAsVUni6ba_7qZ0A?view_as=subscriber" target="_blank">
+            <div class="social-media-button">
+                <i class="fa fa-youtube fa-fw"></i>
+            </div>
+        </a>
+        <a href="https://www.reddit.com/user/chamandana" target="_blank">
+            <div class="social-media-button">
+                <i class="fa fa-reddit fa-fw"></i>
+            </div>
+        </a>
+    </div>
+
     <div class="app-page" id="intro">
+        <div class="background-image"></div>
         <div class="background"></div>
 
         <div class="landing">
+            <div class="image-container">
+                <img src="./images/me.jpg" alt="" class="image">
+            </div>
+
             <p class="handwriting-font large">
                 Hello there!
             </p>
@@ -71,7 +103,20 @@
 
     <div class="app-page down" id="projects">
         <div class="container">
-            
+            <div class="row projects-container">
+                <div class="col s12" style="padding-left:150px;padding-right:150px">
+                    <ul class="tabs indigo-text" id="project-tabs">
+                        <li class="tab col s3"><a class="active" href="#web-projects">Web Projects</a></li>
+                        <li class="tab col s3"><a href="#mobile-apps">Mobile Apps</a></li>
+                        <li class="tab col s3"><a href="#desktop-software">Desktop Software</a></li>
+                        <li class="tab col s3"><a href="#test4">Solutions</a></li>
+                    </ul>
+                </div>
+                <div id="web-projects" class="col s12 tab-content">Test 1</div>
+                <div id="mobile-apps" class="col s12 tab-content">Test 2</div>
+                <div id="desktop-software" class="col s12 tab-content">Test 3</div>
+                <div id="test4" class="col s12 tab-content">Test 4</div>
+            </div>
         </div>
     </div>
 
@@ -104,6 +149,10 @@
         theme_color="#3f51b5">
     </div>
 
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://unpkg.com/popper.js@1"></script>
     <script src="https://unpkg.com/tippy.js@5"></script>
