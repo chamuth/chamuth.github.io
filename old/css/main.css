@@ -254,6 +254,47 @@ body {
 .app-page#projects .tab-content {
   padding: 25px 0;
 }
+.app-page#projects .project-card {
+  padding: 5px 10px;
+  height: 300px;
+  position: relative;
+}
+.app-page#projects .project-card .project-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.app-page#projects .project-card .project-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.app-page#projects .project-card .project-details .content {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  transition: all 250ms;
+}
+.app-page#projects .project-card .project-details .content .title {
+  font-size: 35px;
+}
+.app-page#projects .project-card .project-details .content .description {
+  opacity: 0.75;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.app-page#projects .project-card:hover .project-details {
+  opacity: 0;
+}
 
 .handwriting-font {
   font-family: "Dancing Script", sans-serif;

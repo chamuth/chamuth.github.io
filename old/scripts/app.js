@@ -2,7 +2,7 @@ var appPageIds = ["intro", "projects", "contact"];
 var tabButtonIds = ["intro-tab-button", "projects-tab-button", "contact-tab-button"]
 var appPages = [];
 var tabButtons = [];
-var scrollIndex = 0;
+var scrollIndex = 1;
 
 function getScrollPercent() {
     var h = appPages[scrollIndex];
