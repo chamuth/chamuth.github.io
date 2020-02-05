@@ -48,13 +48,52 @@
         "resources" : [
             "resources/perceptron/perceptronapi-longshot.png"
         ]
-    }
-    ,
+    },
     {
         "id" : "ninponix",
         "name" : "Ninponix Website",
         "labels" : ["Web", "css", "javascript"],
         "thumbnail" : "resources/ninponix/thumbnail.gif",
+        "action" : "",
+        "resources" : [
+            "resources/perceptron/perceptronapi-longshot.png"
+        ]
+    },
+    {
+        "id" : "combiind",
+        "name" : "Combiind",
+        "labels" : ["Web", "css", "javascript"],
+        "thumbnail" : "resources/combiind/thumbnail.png",
+        "action" : "",
+        "resources" : [
+            "resources/perceptron/perceptronapi-longshot.png"
+        ]
+    },
+    {
+        "id" : "shared",
+        "name" : "Shared.lk",
+        "labels" : ["Web", "css", "javascript", "laravel", "Php"],
+        "thumbnail" : "resources/shared/thumbnail.png",
+        "action" : "",
+        "resources" : [
+            "resources/perceptron/perceptronapi-longshot.png"
+        ]
+    },
+    {
+        "id" : "funded",
+        "name" : "Funded.lk",
+        "labels" : ["Web", "css", "javascript", "laravel", "Php"],
+        "thumbnail" : "resources/funded/thumbnail.png",
+        "action" : "",
+        "resources" : [
+            "resources/perceptron/perceptronapi-longshot.png"
+        ]
+    },
+    {
+        "id" : "parking",
+        "name" : "Parking.lk",
+        "labels" : ["Web", "css", "javascript", "laravel", "Php"],
+        "thumbnail" : "resources/parking/thumbnail.png",
         "action" : "",
         "resources" : [
             "resources/perceptron/perceptronapi-longshot.png"

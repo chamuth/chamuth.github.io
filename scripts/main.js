@@ -81,6 +81,8 @@ projects.forEach((project) =>
     projectsContainer.innerHTML = projectsContainer.innerHTML + html;
 });
 
+// added the projects
+$(".image-thumbnail").simpleLightbox({});
 
 // JS tag cloud
 

@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
-      <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="bower_components/simplelightbox/dist/simplelightbox.min.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -117,7 +119,9 @@
         </div>
 
         <div id="about">
-            Hey World
+            <div class="center">
+                Hey
+            </div>
         </div>
     </div>
     
@@ -136,16 +140,20 @@
                         {{/each}}
                     </div>
 
-                    <a href="#" class="action">{{action}}</a>
+                    <a href="{{thumbnail}}" class="action image-thumbnail">{{action}}</a>
                 </div>
             </div>
         </div>
     </script>
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Light box -->
+    <script src="bower_components/simplelightbox/dist/simple-lightbox.min.js"></script>
+    
     <!-- Add handlebars.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.2/handlebars.min.js"></script>
-
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="https://www.jqueryscript.net/demo/3D-Interactive-SVG-Tag-Cloud-Plugin-With-jQuery-SVG-3D-Tag-Cloud/jquery.svg3dtagcloud.min.js"></script>
     
     <script src="./scripts/main.js"></script>
