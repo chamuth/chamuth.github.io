@@ -16,7 +16,10 @@
         "thumbnail" : "resources/manape/thumbnail.png",
         "action" : "View Footage",
         "resources" : [
-            "resources/manape/perceptronapi-longshot.png"
+            "resources/manape/1.png",
+            "resources/manape/2.png",
+            "resources/manape/3.png",
+            "resources/manape/4.png"
         ]
     },
     {
@@ -26,7 +29,9 @@
         "thumbnail" : "resources/dilshanitravels/thumbnail.png",
         "action" : "Show Design Photos",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/dilshanitravels/1.png",
+            "resources/dilshanitravels/2.png",
+            "resources/dilshanitravels/thumbnail.png"
         ]
     },
     {
@@ -36,7 +41,7 @@
         "thumbnail" : "resources/vertexcloud/thumbnail.png",
         "action" : "Show Design Photos",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/vertexcloud/thumbnail.png"
         ]
     },
     {
@@ -46,7 +51,7 @@
         "thumbnail" : "resources/orthodox/thumbnail.gif",
         "action" : "View Footage",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/orthodox/thumbnail.gif"
         ]
     },
     {
@@ -56,7 +61,7 @@
         "thumbnail" : "resources/ninponix/thumbnail.gif",
         "action" : "",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/ninponix/thumbnail.gif"
         ]
     },
     {
@@ -66,7 +71,7 @@
         "thumbnail" : "resources/combiind/thumbnail.png",
         "action" : "",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/combiind/thumbnail.png"
         ]
     },
     {
@@ -76,7 +81,7 @@
         "thumbnail" : "resources/shared/thumbnail.png",
         "action" : "",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/shared/thumbnail.png"
         ]
     },
     {
@@ -86,7 +91,7 @@
         "thumbnail" : "resources/funded/thumbnail.png",
         "action" : "",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/funded/thumbnail.png"
         ]
     },
     {
@@ -96,7 +101,7 @@
         "thumbnail" : "resources/parking/thumbnail.png",
         "action" : "",
         "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
+            "resources/parking/thumbnail.png"
         ]
     }
 ]
