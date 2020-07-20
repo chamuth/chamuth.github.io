@@ -637,7 +637,7 @@ input
         margin: 3px;
         opacity:0.6;
         cursor:pointer;
-        
+
     }
 
     .tag:hover
@@ -679,3 +679,64 @@ input
      -o-animation: flickerAnimation 1s infinite;
       animation: flickerAnimation 1s infinite;
   }
+
+
+@media only screen and (max-width: 600px) {
+    .side-scroll-progress
+    {
+        opacity:0;
+        display:none;
+    }
+
+    body
+    {
+        overflow-x:hidden;
+    }
+
+    .content
+    {
+        margin-left:0;
+
+        #introduction
+        {
+            padding: 100px 0 50px 0;
+
+            .center 
+            {
+                position:relative;
+                max-width:100%;
+                left:0;
+                transform:none;
+                top:0;
+
+                .name
+                {
+                    font-size:35px;
+                    margin-bottom:5px;
+                }
+
+                .jobs
+                {
+                    margin-top:0;
+                    line-height:30px;
+                }
+
+                .job
+                {
+                    font-size:22px;
+                }
+            }
+        }
+
+        #projects 
+        {
+            padding:0;
+
+            .projects-container 
+            {
+                padding:0;
+            }
+        }
+    }
+
+}

@@ -561,4 +561,46 @@ input {
   animation: flickerAnimation 1s infinite;
 }
 
+@media only screen and (max-width: 600px) {
+  .side-scroll-progress {
+    opacity: 0;
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+  .content #introduction {
+    padding: 100px 0 50px 0;
+  }
+  .content #introduction .center {
+    position: relative;
+    max-width: 100%;
+    left: 0;
+    transform: none;
+    top: 0;
+  }
+  .content #introduction .center .name {
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+  .content #introduction .center .jobs {
+    margin-top: 0;
+    line-height: 30px;
+  }
+  .content #introduction .center .job {
+    font-size: 22px;
+  }
+  .content #projects {
+    padding: 0;
+  }
+  .content #projects .projects-container {
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
