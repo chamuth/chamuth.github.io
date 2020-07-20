@@ -70,16 +70,23 @@ function httpGet(theUrl)
     return xmlHttp.responseText;
 }
 
-var projects = JSON.parse(httpGet("data/projects.json"));
-var projectsContainer = document.getElementById("projects-container");
-var projectCardTemplate = document.getElementById("project-card").innerHTML;
-var projectCard = Handlebars.compile(projectCardTemplate);
-
-projects.forEach((project) => 
+// render the projects
+function renderProjects(id, datafile)
 {
-    var html = projectCard(project);
-    projectsContainer.innerHTML = projectsContainer.innerHTML + html;
-});
+    var projects = JSON.parse(httpGet(datafile));
+    var projectsContainer = document.getElementById(id);
+    var projectCardTemplate = document.getElementById("project-card").innerHTML;
+    var projectCard = Handlebars.compile(projectCardTemplate);
+
+    projects.forEach((project) => 
+    {
+        var html = projectCard(project);
+        projectsContainer.innerHTML = projectsContainer.innerHTML + html;
+    });
+}
+
+renderProjects("projects-container", "data/projects.json");
+renderProjects("mobile-projects-container", "data/mobile.json");
 
 // added the projects
 $(".image-thumbnail").simpleLightbox({});

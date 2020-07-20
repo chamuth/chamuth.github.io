@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chamuth Chamandana Web Portfolio</title>
+    <title>Chamuth Chamandana | Portfolio</title>
 
     <!-- Google Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -63,7 +63,7 @@
             <div class="center">
                 <div class="profile-image">
                     <div class="border">
-                        <img src="/resources/me/me.jpg" alt="">
+                        <img src="resources/me/me.jpg" alt="">
                     </div>
                 </div>
                 <span class="name">
@@ -72,11 +72,9 @@
                 <div class="jobs">
                     <span class="job">Web Developer</span>
                     <span class="seperator">/</span>
-                    <span class="job">Web Designer</span>
-                    <span class="seperator">/</span>
                     <span class="job">Software Developer</span>
                     <span class="seperator">/</span>
-                    <span class="job">UI Designer</span>
+                    <span class="job">Games Developer</span>
                 </div>
 
                 <div class="social-media">
@@ -113,9 +111,27 @@
         </div>
         
         <div id="projects">
+
+            <div class="section-divider">
+                <div class="divider"></div>
+                <span class="title">Web Development</span>
+                <div class="divider"></div>
+            </div>
+            
             <div id="projects-container" class="projects-container">
                 
             </div>
+
+            <div class="section-divider">
+                <div class="divider"></div>
+                <span class="title">Mobile Development</span>
+                <div class="divider"></div>
+            </div>
+
+            <div id="mobile-projects-container" class="projects-container">
+                
+            </div>
+
         </div>
 
         <div id="about">
@@ -147,7 +163,11 @@
     <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '5787ba8c-f1f0-4a35-ba63-f78665c98783', f: true }); done = true; } }; })();</script>
 
     <script type="text/x-handlebars-template" id="project-card">
-        <div class="item" data-id="{{id}}">
+        {{#if high }}
+            <div class="item high" data-id="{{id}}">
+        {{ else }}
+            <div class="item" data-id="{{id}}">
+        {{/if}}
             <img class="project-thumbnail" src="{{thumbnail}}" alt="">
             <div class="project-details">
                 <div class="centered">

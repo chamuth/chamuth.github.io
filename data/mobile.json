@@ -1,0 +1,43 @@
+[
+    {
+        "id" : "ecohub",
+        "name" : "EcoHub",
+        "labels" : ["Mobile", "Flutter", "Dart", "Firebase"],
+        "thumbnail" : "resources/ecoHub/thumbnail.jpg",
+        "action" : "View Longshot",
+        "high" : true,
+        "resources" : [
+            "resources/ecoHub/thumbnail.jpg",
+            "resources/ecoHub/1.jpg",
+            "resources/ecoHub/2.jpg",
+            "resources/ecoHub/3.jpg"
+        ]
+    },
+
+    {
+        "id" : "vlearn",
+        "name" : "vLearn",
+        "labels" : ["Mobile", "Flutter", "Dart", "Firebase"],
+        "thumbnail" : "resources/vlearn/1.jpg",
+        "action" : "View Longshot",
+        "high" : true,
+        "resources" : [
+            "resources/vlearn/thumbnail.jpg",
+            "resources/vlearn/2.gif",
+            "resources/vlearn/3.gif"
+        ]
+    },
+
+    {
+        "id" : "traveler",
+        "name" : "Traveler",
+        "labels" : ["Mobile", "Ionic", "Firebase"],
+        "thumbnail" : "resources/traveler/1.gif",
+        "action" : "View Longshot",
+        "high" : true,
+        "resources" : [
+            "resources/traveler/1.gif",
+            "resources/traveler/2.gif"
+        ]
+    }
+]

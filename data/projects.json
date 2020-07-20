@@ -1,5 +1,36 @@
 [
     {
+        "id" : "artistpromo.lk",
+        "name" : "ArtistPromo.lk",
+        "labels" : ["Web", "Laravel", "javascript", "node.js"],
+        "thumbnail" : "resources/artistpromo.lk/thumbnail.png",
+        "action" : "View Longshot",
+        "resources" : [
+            "resources/artistpromo.lk/thumbnail.png",
+            "resources/artistpromo.lk/1.png"
+        ]
+    },
+    {
+        "id" : "edi",
+        "name" : "Edi",
+        "labels" : ["Web", "Laravel", "javascript", "node.js"],
+        "thumbnail" : "resources/edi/thumbnail.png",
+        "action" : "View Longshot",
+        "resources" : [
+            "resources/edi/thumbnail.png"
+        ]
+    },
+    {
+        "id" : "cyclic",
+        "name" : "Cyclic",
+        "labels" : ["Web", "Laravel", "javascript", "node.js"],
+        "thumbnail" : "resources/cyclic/thumbnail.png",
+        "action" : "View Longshot",
+        "resources" : [
+            "resources/cyclic/thumbnail.png"
+        ]
+    },
+    {
         "id" : "perceptronapi",
         "name" : "Perceptron API",
         "labels" : ["Web", "css", "javascript", "node.js"],

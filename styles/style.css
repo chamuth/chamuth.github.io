@@ -248,12 +248,16 @@ a:active {
   justify-content: left;
   justify-items: left;
 }
+.projects-container .item.high {
+  min-height: 750px !important;
+  max-width: calc(20% - 30px);
+}
 .projects-container .item {
   max-width: calc(25% - 30px);
   margin: 5px;
   flex: 20%;
   justify-items: left;
-  min-height: 250px;
+  min-height: 300px;
   padding: 10px;
   background-color: white;
   border-radius: 10px;
@@ -451,6 +455,27 @@ a:active {
 
 input {
   background-color: transparent;
+}
+
+.section-divider {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 30% 0 calc(30% - 175px);
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.section-divider .title {
+  font-weight: bold;
+  font-size: 25px;
+  color: gray;
+}
+.section-divider .divider {
+  margin: 0 20px;
+  height: 2px;
+  flex-grow: 1;
+  background-color: lightgray;
 }
 
 /*# sourceMappingURL=style.css.map */
