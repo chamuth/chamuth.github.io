@@ -138,6 +138,7 @@ body
         {
             position:absolute;
             top:50%;
+            max-width:25%;
             left:50%;
             transform:translateX(-50%) translateY(-50%);
             text-align:center;
@@ -611,3 +612,70 @@ input
         background-color:lightgray;
     }
 }
+
+
+// Tag Cloud
+.tech-cloud
+{
+    width:50%;
+    text-align:center;
+    display:flex;
+    align-items: center;
+  justify-content: center;
+    margin-top:50px;
+    width:100%;
+    flex-wrap: wrap;
+
+    .tag 
+    {
+        border:1px solid $primaryColor;
+        padding: 4px 8px;
+        border-radius:50px;
+        color: $primaryColor;
+        font-weight:bold;
+        font-size:14px;
+        margin: 3px;
+        opacity:0.6;
+        cursor:pointer;
+        
+    }
+
+    .tag:hover
+    {
+        opacity:1;
+    }
+}
+
+.loading-blinking 
+{
+    font-size:25px;
+    padding: 20px 0;
+    color: gray;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation 1s infinite;
+     -moz-animation: flickerAnimation 1s infinite;
+     -o-animation: flickerAnimation 1s infinite;
+      animation: flickerAnimation 1s infinite;
+  }

@@ -85,8 +85,29 @@ function renderProjects(id, datafile)
     });
 }
 
+function renderTags()
+{
+    var tags = JSON.parse(httpGet("data/tags.json"));
+    var tagsContainer = document.getElementById("techcloud");
+    var tagTemplate = document.getElementById("tag-item").innerHTML;
+    var tagCard = Handlebars.compile(tagTemplate);
+
+    tagsContainer.innerHTML = "";
+
+    tags.sort();
+    
+    tags.forEach((tag) => {
+        var html = tagCard({ item : tag }); 
+        tagsContainer.innerHTML = tagsContainer.innerHTML + html;
+    });
+}
+
 renderProjects("projects-container", "data/projects.json");
 renderProjects("mobile-projects-container", "data/mobile.json");
+
+setTimeout(() => {
+    renderTags();
+}, 4000);
 
 // added the projects
 $(".image-thumbnail").simpleLightbox({});

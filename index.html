@@ -32,7 +32,7 @@
         <div id="progress-1" class="progress-bar small">
             <div class="progress"></div>
         </div>
-        
+
         <a href="#projects">
             <div class="page">
                 <i class="material-icons">
@@ -97,6 +97,13 @@
                         </div>
                     </a>
                 </div>
+
+                
+                <!-- Technologies tag cloud -->
+                <div class="tech-cloud" id="techcloud">
+                    <span class="loading-blinking animate-flicker">Fetching magic words...</span>
+                </div>
+
 
                 <a href="#projects">
                     <div class="scroll-for-more">    
@@ -185,6 +192,10 @@
                 </div>
             </div>
         </div>
+    </script>
+
+    <script type="text/x-handlebars-template" id="tag-item">
+        <div class="tag"><span>{{ item }}</span></div>
     </script>
 
     <!-- jQuery -->

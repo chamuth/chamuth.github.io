@@ -111,6 +111,7 @@ body {
 .content #introduction .center {
   position: absolute;
   top: 50%;
+  max-width: 25%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
@@ -476,6 +477,88 @@ input {
   height: 2px;
   flex-grow: 1;
   background-color: lightgray;
+}
+
+.tech-cloud {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.tech-cloud .tag {
+  border: 1px solid #192965;
+  padding: 4px 8px;
+  border-radius: 50px;
+  color: #192965;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 3px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.tech-cloud .tag:hover {
+  opacity: 1;
+}
+
+.loading-blinking {
+  font-size: 25px;
+  padding: 20px 0;
+  color: gray;
+}
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animate-flicker {
+  -webkit-animation: flickerAnimation 1s infinite;
+  -moz-animation: flickerAnimation 1s infinite;
+  -o-animation: flickerAnimation 1s infinite;
+  animation: flickerAnimation 1s infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
