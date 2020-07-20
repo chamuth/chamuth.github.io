@@ -696,6 +696,7 @@ input
     .content
     {
         margin-left:0;
+        padding: 0 25px;
 
         #introduction
         {
@@ -735,6 +736,28 @@ input
             .projects-container 
             {
                 padding:0;
+
+                .item
+                {
+                    max-width: calc(100% - 30px);
+                    margin: 5px;
+                    flex: 100%;
+                    min-height:240px;
+                }
+            }
+
+            .section-divider
+            {
+                padding:0;
+            }
+        }
+
+        #about 
+        {
+            .center 
+            {
+                left:0;
+                transform:none;
             }
         }
     }
