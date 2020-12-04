@@ -763,3 +763,26 @@ input
     }
 
 }
+
+.phone-me-option
+{
+    background-color:$primaryColor;
+    color:white;
+    padding: 10px 15px;
+    display:inline-block;
+    border-radius:50px;
+    margin-top:20px;
+    transition:all 200ms;
+    border:1px solid $primaryColor;
+
+    .fa
+    {
+        margin-right:10px;
+    }
+}
+
+.phone-me-option:hover
+{
+    background-color:white;
+    color:$primaryColor;
+}

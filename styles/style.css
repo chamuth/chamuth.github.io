@@ -616,5 +616,23 @@ input {
     transform: none;
   }
 }
+.phone-me-option {
+  background-color: #192965;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: all 200ms;
+  border: 1px solid #192965;
+}
+.phone-me-option .fa {
+  margin-right: 10px;
+}
+
+.phone-me-option:hover {
+  background-color: white;
+  color: #192965;
+}
 
 /*# sourceMappingURL=style.css.map */
