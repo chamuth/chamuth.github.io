@@ -1,138 +1,165 @@
 [
-    {
-        "id" : "artistpromo.lk",
-        "name" : "ArtistPromo.lk",
-        "labels" : ["Web", "Laravel", "javascript", "node.js"],
-        "thumbnail" : "resources/artistpromo.lk/thumbnail.png",
-        "action" : "View Longshot",
-        "resources" : [
-            "resources/artistpromo.lk/thumbnail.png",
-            "resources/artistpromo.lk/1.png"
-        ]
-    },
-    {
-        "id" : "edi",
-        "name" : "Edi",
-        "labels" : ["Web", "Laravel", "javascript", "node.js"],
-        "thumbnail" : "resources/edi/thumbnail.png",
-        "action" : "View Longshot",
-        "resources" : [
-            "resources/edi/thumbnail.png"
-        ]
-    },
-    {
-        "id" : "cyclic",
-        "name" : "Cyclic",
-        "labels" : ["Web", "Laravel", "javascript", "node.js"],
-        "thumbnail" : "resources/cyclic/thumbnail.png",
-        "action" : "View Longshot",
-        "resources" : [
-            "resources/cyclic/thumbnail.png"
-        ]
-    },
-    {
-        "id" : "perceptronapi",
-        "name" : "Perceptron API",
-        "labels" : ["Web", "css", "javascript", "node.js"],
-        "thumbnail" : "resources/perceptron/thumbnail.png",
-        "action" : "View Longshot",
-        "resources" : [
-            "resources/perceptron/perceptronapi-longshot.png"
-        ]
-    },
-    {
-        "id" : "manape",
-        "name" : "Manape.lk",
-        "labels" : ["Web", "css", "javascript", "PHP", "laravel"],
-        "thumbnail" : "resources/manape/thumbnail.png",
-        "action" : "View Footage",
-        "resources" : [
-            "resources/manape/1.png",
-            "resources/manape/2.png",
-            "resources/manape/3.png",
-            "resources/manape/4.png"
-        ]
-    },
-    {
-        "id" : "dilshanitravels",
-        "name" : "Dilshani Travels",
-        "labels" : ["Web", "css", "javascript", "PHP", "laravel"],
-        "thumbnail" : "resources/dilshanitravels/thumbnail.png",
-        "action" : "Show Design Photos",
-        "resources" : [
-            "resources/dilshanitravels/1.png",
-            "resources/dilshanitravels/2.png",
-            "resources/dilshanitravels/thumbnail.png"
-        ]
-    },
-    {
-        "id" : "vertexcloud",
-        "name" : "Vertex Cloud",
-        "labels" : ["Web", "css", "javascript", "node.js"],
-        "thumbnail" : "resources/vertexcloud/thumbnail.png",
-        "action" : "Show Design Photos",
-        "resources" : [
-            "resources/vertexcloud/thumbnail.png"
-        ]
-    },
-    {
-        "id" : "orthodox",
-        "name" : "Orthodox API",
-        "labels" : ["node.js", "css", "javascript", "ML"],
-        "thumbnail" : "resources/orthodox/thumbnail.gif",
-        "action" : "View Footage",
-        "resources" : [
-            "resources/orthodox/thumbnail.gif"
-        ]
-    },
-    {
-        "id" : "ninponix",
-        "name" : "Ninponix Website",
-        "labels" : ["Web", "css", "javascript"],
-        "thumbnail" : "resources/ninponix/thumbnail.gif",
-        "action" : "",
-        "resources" : [
-            "resources/ninponix/thumbnail.gif"
-        ]
-    },
-    {
-        "id" : "combiind",
-        "name" : "Combiind",
-        "labels" : ["Web", "css", "javascript"],
-        "thumbnail" : "resources/combiind/thumbnail.png",
-        "action" : "",
-        "resources" : [
-            "resources/combiind/thumbnail.png"
-        ]
-    },
-    {
-        "id" : "shared",
-        "name" : "Shared.lk",
-        "labels" : ["Web", "css", "javascript", "laravel", "Php"],
-        "thumbnail" : "resources/shared/thumbnail.png",
-        "action" : "",
-        "resources" : [
-            "resources/shared/thumbnail.png"
-        ]
-    },
-    {
-        "id" : "funded",
-        "name" : "Funded.lk",
-        "labels" : ["Web", "css", "javascript", "laravel", "Php"],
-        "thumbnail" : "resources/funded/thumbnail.png",
-        "action" : "",
-        "resources" : [
-            "resources/funded/thumbnail.png"
-        ]
-    },
-    {
-        "id" : "parking",
-        "name" : "Parking.lk",
-        "labels" : ["Web", "css", "javascript", "laravel", "Php"],
-        "thumbnail" : "resources/parking/thumbnail.png",
-        "action" : "",
-        "resources" : [
-            "resources/parking/thumbnail.png"
-        ]
-    }
+  {
+    "id": "artistpromo.lk",
+    "name": "ArtistPromo.lk",
+    "labels": ["Web", "Laravel", "javascript", "node.js"],
+    "thumbnail": "resources/artistpromo.lk/thumbnail.png",
+    "action": "View Longshot",
+    "resources": [
+      "resources/artistpromo.lk/thumbnail.png",
+      "resources/artistpromo.lk/1.png"
+    ]
+  },
+  {
+    "id": "pprSelector",
+    "name": "Price Per Region Shopify App",
+    "labels": ["Shopify", "Node.js", "CSS/HTML/JS"],
+    "thumbnail": "resources/pprSelector/thumbnail.jpeg",
+    "action": "View Footage",
+    "resources": [
+      "resources/pprSelector/thumbnail.jpeg",
+      "resources/pprSelector/2.jpeg",
+      "resources/pprSelector/3.mp4",
+      "resources/pprSelector/4.mp4"
+    ]
+  },
+  {
+    "id": "cinemator",
+    "name": "Cinemator (Cross-platform)",
+    "labels": ["C#", "Cross-Platform"],
+    "thumbnail": "resources/cinemator/thumbnail.jpeg",
+    "action": "View Footage",
+    "resources": ["resources/cinemator/thumbnail.jpeg"]
+  },
+  {
+    "id": "edi",
+    "name": "Edi",
+    "labels": ["Web", "Laravel", "javascript", "node.js"],
+    "thumbnail": "resources/edi/thumbnail.png",
+    "action": "View Longshot",
+    "resources": ["resources/edi/thumbnail.png"]
+  },
+  {
+    "id": "cyclic",
+    "name": "Cyclic",
+    "labels": ["Web", "Laravel", "javascript", "node.js"],
+    "thumbnail": "resources/cyclic/thumbnail.png",
+    "action": "View Longshot",
+    "resources": ["resources/cyclic/thumbnail.png"]
+  },
+  {
+    "id": "perceptronapi",
+    "name": "Perceptron API",
+    "labels": ["Web", "css", "javascript", "node.js"],
+    "thumbnail": "resources/perceptron/thumbnail.png",
+    "action": "View Longshot",
+    "resources": [
+      "resources/perceptron/perceptronapi-longshot.png",
+      "resources/perceptron/2.jpeg",
+      "resources/perceptron/3.jpeg"
+    ]
+  },
+  {
+    "id": "manape",
+    "name": "Manape.lk",
+    "labels": ["Web", "css", "javascript", "PHP", "laravel"],
+    "thumbnail": "resources/manape/thumbnail.jpeg",
+    "action": "View Footage",
+    "resources": [
+      "resources/manape/1.png",
+      "resources/manape/2.png",
+      "resources/manape/3.png",
+      "resources/manape/4.png",
+      "resources/manape/6.png",
+      "resources/manape/5.mp4"
+    ]
+  },
+  {
+    "id": "dilshanitravels",
+    "name": "Dilshani Travels",
+    "labels": ["Web", "css", "javascript", "PHP", "laravel"],
+    "thumbnail": "resources/dilshanitravels/thumbnail.png",
+    "action": "Show Design Photos",
+    "resources": [
+      "resources/dilshanitravels/1.png",
+      "resources/dilshanitravels/2.png",
+      "resources/dilshanitravels/thumbnail.png"
+    ]
+  },
+  {
+    "id": "vertexcloud",
+    "name": "Vertex Cloud",
+    "labels": ["Web", "css", "javascript", "node.js"],
+    "thumbnail": "resources/vertexcloud/thumbnail.png",
+    "action": "Show Design Photos",
+    "resources": [
+      "resources/vertexcloud/thumbnail.png",
+      "resources/vertexcloud/4.jpeg",
+      "resources/vertexcloud/3.jpeg"
+    ]
+  },
+  {
+    "id": "orthodox",
+    "name": "Orthodox API",
+    "labels": ["node.js", "css", "javascript", "ML"],
+    "thumbnail": "resources/orthodox/thumbnail.gif",
+    "action": "View Footage",
+    "resources": ["resources/orthodox/thumbnail.gif"]
+  },
+  {
+    "id": "ninponix",
+    "name": "Ninponix Website",
+    "labels": ["Web", "css", "javascript"],
+    "thumbnail": "resources/ninponix/thumbnail.gif",
+    "action": "",
+    "resources": ["resources/ninponix/thumbnail.gif"]
+  },
+  {
+    "id": "combiind",
+    "name": "Combiind",
+    "labels": ["Web", "css", "javascript"],
+    "thumbnail": "resources/combiind/thumbnail.png",
+    "action": "",
+    "resources": ["resources/combiind/thumbnail.png"]
+  },
+  {
+    "id": "shared",
+    "name": "Shared.lk",
+    "labels": ["Web", "css", "javascript", "laravel", "Php"],
+    "thumbnail": "resources/shared/thumbnail.png",
+    "action": "",
+    "resources": ["resources/shared/thumbnail.png"]
+  },
+  {
+    "id": "funded",
+    "name": "Funded.lk",
+    "labels": ["Web", "css", "javascript", "laravel", "Php"],
+    "thumbnail": "resources/funded/thumbnail.png",
+    "action": "",
+    "resources": ["resources/funded/thumbnail.png"]
+  },
+  {
+    "id": "parking",
+    "name": "Parking.lk",
+    "labels": ["Web", "css", "javascript", "laravel", "Php"],
+    "thumbnail": "resources/parking/thumbnail.png",
+    "action": "",
+    "resources": ["resources/parking/thumbnail.png"]
+  },
+  {
+    "id": "cryptic",
+    "name": "Cryptic API",
+    "labels": ["Web/Desktop", "WPF", "C#"],
+    "thumbnail": "resources/cryptic/thumbnail.gif",
+    "action": "Show Footage",
+    "resources": ["resources/cryptic/thumbnail.gif"]
+  },
+  {
+    "id": "ccscrolljs",
+    "name": "CCScroll.js",
+    "labels": ["JavaScript", "CSS3", "Framework"],
+    "thumbnail": "resources/ccscrolljs/thumbnail.jpeg",
+    "resources": ["resources/ccscrolljs/thumbnail.jpeg"],
+    "action": "Show Footage"
+  }
 ]
