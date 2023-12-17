@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,7 @@
     <title>Chamuth Chamandana | Portfolio</title>
 
     <!-- Google Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
 
@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <div class="side-scroll-progress">
         <a href="#introduction">
@@ -28,7 +29,7 @@
                 <span class="page-name">Introduction</span>
             </div>
         </a>
-        
+
         <div id="progress-1" class="progress-bar small">
             <div class="progress"></div>
         </div>
@@ -39,7 +40,7 @@
                     apps
                 </i>
                 <span class="page-name">My Work</span>
-            </div>    
+            </div>
         </a>
 
         <div id="progress-2" class="progress-bar">
@@ -54,16 +55,16 @@
                 <span class="page-name">Contact Me</span>
             </div>
         </a>
-            
+
     </div>
 
     <div class="content">
-        
+
         <div id="introduction">
             <div class="center">
                 <div class="profile-image">
                     <div class="border">
-                        <img src="resources/me/me2.png" alt="">
+                        <img src="resources/me/me.png" alt="">
                     </div>
                 </div>
                 <span class="name">
@@ -109,7 +110,7 @@
                     </a>
                 </div>
 
-                
+
                 <!-- Technologies tag cloud -->
                 <div class="tech-cloud" id="techcloud">
                     <span class="loading-blinking animate-flicker">Fetching magic words...</span>
@@ -117,7 +118,7 @@
 
 
                 <a href="#projects">
-                    <div class="scroll-for-more">    
+                    <div class="scroll-for-more">
                         <i class="material-icons">
                             keyboard_arrow_down
                         </i>
@@ -127,7 +128,7 @@
             </div>
 
         </div>
-        
+
         <div id="projects">
 
             <div class="section-divider">
@@ -135,9 +136,9 @@
                 <span class="title">Web Development</span>
                 <div class="divider"></div>
             </div>
-            
+
             <div id="projects-container" class="projects-container">
-                
+
             </div>
 
             <div class="section-divider">
@@ -147,7 +148,7 @@
             </div>
 
             <div id="mobile-projects-container" class="projects-container">
-                
+
             </div>
 
         </div>
@@ -157,28 +158,29 @@
                 <section class="get-in-touch">
                     <h1 class="title">Get in touch</h1>
                     <form class="contact-form row">
-                       <div class="form-field col x-50">
-                          <input id="name" class="input-text js-input" type="text" required>
-                          <label class="label" for="name">Name</label>
-                       </div>
-                       <div class="form-field col x-50">
-                          <input id="email" class="input-text js-input" type="email" required>
-                          <label class="label" for="email">E-mail</label>
-                       </div>
-                       <div class="form-field col x-100">
-                          <input id="message" class="input-text js-input" type="text" required>
-                          <label class="label" for="message">Message</label>
-                       </div>
-                       <div class="form-field col x-100 align-center">
-                          <input class="submit-btn" type="submit" value="Submit">
-                       </div>
+                        <div class="form-field col x-50">
+                            <input id="name" class="input-text js-input" type="text" required>
+                            <label class="label" for="name">Name</label>
+                        </div>
+                        <div class="form-field col x-50">
+                            <input id="email" class="input-text js-input" type="email" required>
+                            <label class="label" for="email">E-mail</label>
+                        </div>
+                        <div class="form-field col x-100">
+                            <input id="message" class="input-text js-input" type="text" required>
+                            <label class="label" for="message">Message</label>
+                        </div>
+                        <div class="form-field col x-100 align-center">
+                            <input class="submit-btn" type="submit" value="Submit">
+                        </div>
                     </form>
-                 </section>
+                </section>
             </div>
         </div>
     </div>
-    
-    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '5787ba8c-f1f0-4a35-ba63-f78665c98783', f: true }); done = true; } }; })();</script>
+
+    <script type='text/javascript'
+        data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: '5787ba8c-f1f0-4a35-ba63-f78665c98783', f: true }); done = true; } }; })();</script>
 
     <script type="text/x-handlebars-template" id="project-card">
         {{#if high }}
@@ -210,15 +212,18 @@
     </script>
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Light box -->
     <script src="bower_components/simplelightbox/dist/simple-lightbox.min.js"></script>
-    
+
     <!-- Add handlebars.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.2/handlebars.min.js"></script>
-    <script src="https://www.jqueryscript.net/demo/3D-Interactive-SVG-Tag-Cloud-Plugin-With-jQuery-SVG-3D-Tag-Cloud/jquery.svg3dtagcloud.min.js"></script>
-    
+    <script
+        src="https://www.jqueryscript.net/demo/3D-Interactive-SVG-Tag-Cloud-Plugin-With-jQuery-SVG-3D-Tag-Cloud/jquery.svg3dtagcloud.min.js"></script>
+
     <script src="./scripts/main.js"></script>
 </body>
+
 </html>
